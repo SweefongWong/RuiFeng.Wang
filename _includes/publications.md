@@ -10,6 +10,16 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://www.mdpi.com/2223-7747/14/10/1481">A Comprehensive Review of Deep Learning Applications in Cotton Industry: From Field Monitoring to Smart Processing</a></div>
+    <div class="author">Zhi-Yu Yang, Wan-Ke Xia, Hao-Qi Chu, Wen-Hao Su#, <strong>Rui-Feng Wang#</strong>, Haihua Wang#</div>
+    <div class="periodical"><em>Plants (IF : 4.0)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://link.springer.com/chapter/10.1007/978-981-97-8490-5_14">Self-supervised transformer-based pre-training method with General Plant Infection dataset</a></div>
     <div class="author">Zhengle Wang, <strong>Ruifeng Wang</strong>, Minjuan Wang#, Tianyun Lai, Man Zhang</div>
     <div class="periodical"><em>PRCV, 2024.</em></div>

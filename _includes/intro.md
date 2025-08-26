@@ -3,8 +3,8 @@
 
 
 
-I'm currently a research assistant at China Agricultural University and University of Georgia. 
-My current research interests include Automation, Computer Vision, Deep Learning, Precision Agriculture, and Agricultural Robots.
+I'm currently a research assistant at University of Georgia. 
+My current research interests include Automation, Computer Vision, Deep Learning, High-Throughput Plant Phenotyping, Precision Agriculture, and Agricultural Robots.
 
 ## Research Interests
 

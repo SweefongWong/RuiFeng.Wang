@@ -3,7 +3,7 @@
 
 
 
-I'm currently a research assistant at University of Georgia. 
+I'm currently a research assistant and engineer at University of Georgia. 
 My current research interests include Automation, Computer Vision, Deep Learning, High-Throughput Plant Phenotyping, Precision Agriculture, and Agricultural Robots.
 
 ## Research Interests

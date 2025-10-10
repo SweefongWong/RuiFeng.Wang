@@ -10,6 +10,26 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://www.mdpi.com/2311-7524/11/10/1202">BMDNet-YOLO: A Lightweight and Robust Model for High-Precision Real-Time Recognition of Blueberry Maturity</a></div>
+    <div class="author">Huihui Sun, <strong>Rui-Feng Wang#</strong></div>
+    <div class="periodical"><em>Horticulturae (IF : 3.0)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://www.mdpi.com/2673-2688/6/9/235">RA-CottNet: A Real-Time High-Precision Deep Learning Model for Cotton Boll and Flower Recognition</a></div>
+    <div class="author"><strong>Rui-Feng Wang</strong>, Yi-Ming Qin, Yi-Yi Zhao, Mingrui Xu, Iago Beffart Schardong, Kangning Cui#</div>
+    <div class="periodical"><em>AI (IF : 5.0)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://www.sciencedirect.com/science/article/pii/S2772375525004885">From Sensors to Insights: Technological Trends in Image-Based High-Throughput Plant Phenotyping</a></div>
     <div class="author"><strong>Rui-Feng Wang</strong>, Hao-Ran Qu, Wen-Hao Su#</div>
     <div class="periodical"><em>Smart Agricultural Technology (IF : 5.7)</em></div>
@@ -93,28 +113,6 @@
 </li>
 
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.mdpi.com/2073-4395/14/12/2838">Automatic lettuce weed detection and classification based on optimized convolutional neural networks for robotic weed control</a></div>
-    <div class="author">Chang-Tao Zhao, <strong>Rui-Feng Wang</strong>, Yu-Hao Tu, Xiao-Xu Pang, Wen-Hao Su#</div>
-    <div class="periodical"><em>Agronomy (IF : 3.4)</em></div>
-  </div>
-</div>
-</li>
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.mdpi.com/2071-1050/17/7/3190">Deep Learning for Sustainable Agriculture: A Systematic Review on Applications in Lettuce Cultivation</a></div>
-    <div class="author">Yi-Ming Qin*,Yu-Hao Tu*,Tao Li, Yao Ni#, <strong>Rui-Feng Wang</strong>, Haihua Wang#</div>
-    <div class="periodical"><em>Sustainability (IF : 3.3)</em></div>
-  </div>
-</div>
-</li>
-
-
 
 </ol>
 <p style="margin: 0px 0px 40px;"><a href="https://scholar.google.com/citations?user=79sbI-UAAAAJ&hl=en">See all publications</a></p>
@@ -155,7 +153,7 @@
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title">A Local Perspective-based Model for Overlapping Community Detection</div>
     <div class="author">Gaofeng Zhou, <strong>Rui-Feng Wang#</strong>, Kangning Cui</div>
-    <div class="periodical"><em>Accepted by SMC 2025, 2025</em></div>
+    <div class="periodical"><em>Accepted by IEEE International Conference on Systems, Man, and Cybernetics (SMC 2025) (<strong>Oral Presentation</strong>), 2025</em></div>
   </div>
 </div>
 </li>

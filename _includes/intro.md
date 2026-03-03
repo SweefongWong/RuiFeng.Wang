@@ -3,12 +3,19 @@
 
 
 
-I'm currently a research assistant and engineer at University of Georgia. 
+I'm currently a research assistant and engineer at University of Florida and University of Georgia. 
 My current research interests include Automation, Computer Vision, Deep Learning, High-Throughput Plant Phenotyping, Precision Agriculture, and Agricultural Robots.
 
 ## Research Interests
 
-- **Precision Agriculture & Agricultural Robotics**: My research centers on the integration of automation and robotics into precision agriculture. I design intelligent agricultural systems capable of performing tasks such as intra-row weeding, precision spraying, and automated harvesting. I am particularly interested in developing lightweight and efficient robotic platforms that can operate reliably in unstructured field environments.
-- **Computer Vision & Deep Learning for Smart Farming**: I focus on building high-performance computer vision models tailored to agricultural applications. My work involves optimizing CNN and Transformer-based architectures (e.g., customized YOLO variants and ViT models) for tasks such as crop/weed classification, pest detection, and growth monitoring. I aim to achieve robust performance under diverse field conditions such as variable lighting and occlusion.
-- **High-Throughput Plant Phenotyping (HTPP)**: My upcoming research explores the deployment of AI-powered phenotyping systems to extract large-scale, multi-modal plant trait data across time and space. I am particularly interested in drone and ground-platform-based imaging, multimodal sensor fusion, and deep learning-driven trait extraction for stress detection, yield estimation, and postharvest quality analysis.
-- **AI-Driven Control Systems in Agriculture**: I also explore the use of advanced control algorithms, such as Active Disturbance Rejection Control (ADRC), to improve the real-time responsiveness and robustness of agricultural equipment. This work aims to bridge the gap between intelligent perception and autonomous action in complex agricultural environments.
+- **Agricultural Computer Vision & Foundation Models**  
+  My research focuses on developing robust computer vision algorithms for agricultural environments. I study how large-scale vision foundation models (e.g., self-supervised vision transformers) can be adapted to agricultural scenarios for tasks such as crop detection, fruit segmentation, pest monitoring, and field scene understanding. My work aims to bridge the gap between general-purpose visual representation learning and domain-specific agricultural perception.
+
+- **High-Throughput Plant Phenotyping (HTPP)**  
+  I am interested in AI-enabled high-throughput plant phenotyping systems that enable scalable and automated measurement of plant traits. My research explores UAV- and ground-robot-based sensing platforms, multimodal imaging systems, and deep learning models for extracting phenotypic traits related to plant growth, stress responses, disease symptoms, and yield estimation.
+
+- **Precision Agriculture & Intelligent Field Robotics**  
+  I design intelligent perception systems for autonomous agricultural robots, including applications such as precision spraying, crop monitoring, and robotic harvesting. My goal is to develop lightweight and efficient vision pipelines that can operate reliably in unstructured agricultural environments with challenges such as occlusion, clutter, and varying illumination.
+
+- **Agricultural AI Systems & Dataset Development**  
+  I am also interested in building high-quality agricultural datasets and benchmarking AI models for real-world farming applications. My work includes constructing annotated datasets for crop and pest monitoring and developing reproducible evaluation pipelines to support reliable deployment of AI technologies in agriculture.

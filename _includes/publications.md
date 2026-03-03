@@ -10,6 +10,19 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/11343612">A Local Perspective-based Model for Overlapping Community Detection</a></div>
+    <div class="author">Gaofeng Zhou, <strong>Ruifeng Wang#</strong>, Kangning Cui</div>
+    <div class="periodical"><em>2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2025.</em></div>
+    <div class="links">
+    <a href="https://arxiv.org/abs/2407.14911" class="btn-badge"><img src="https://img.shields.io/badge/arxiv-2407.14911-blue"></a>
+    </div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://www.mdpi.com/2311-7524/11/10/1202">BMDNet-YOLO: A Lightweight and Robust Model for High-Precision Real-Time Recognition of Blueberry Maturity</a></div>
     <div class="author">Huihui Sun, <strong>Rui-Feng Wang#</strong></div>
     <div class="periodical"><em>Horticulturae (IF : 3.0)</em></div>
@@ -81,19 +94,9 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.mdpi.com/2223-7747/14/10/1481">A Comprehensive Review of Deep Learning Applications in Cotton Industry: From Field Monitoring to Smart Processing</a></div>
-    <div class="author">Zhi-Yu Yang, Wan-Ke Xia, Hao-Qi Chu, Wen-Hao Su#, <strong>Rui-Feng Wang#</strong>, Haihua Wang#</div>
-    <div class="periodical"><em>Plants (IF : 4.1)</em></div>
-  </div>
-</div>
-</li>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://link.springer.com/chapter/10.1007/978-981-97-8490-5_14">Self-supervised transformer-based pre-training method with General Plant Infection dataset</a></div>
     <div class="author">Zhengle Wang, <strong>Ruifeng Wang</strong>, Minjuan Wang#, Tianyun Lai, Man Zhang</div>
-    <div class="periodical"><em>PRCV, 2024.</em></div>
+    <div class="periodical"><em>Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2024.</em></div>
     <div class="links">
     <a href="https://arxiv.org/abs/2407.14911" class="btn-badge"><img src="https://img.shields.io/badge/arxiv-2407.14911-blue"></a>
     </div>
@@ -140,25 +143,12 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">FA-YOLO: Research On Efficient Feature Selection YOLO Improved Algorithm Based On FMDS and AGMF Modules</div>
-    <div class="author">Yukang Huo, Mingyuan Yao, Qingbin Tian, Tonghao Wang, <strong>Ruifeng Wang</strong>, Haihua Wang#</div>
-    <div class="periodical"><em>Under Review, 2025</em></div>
+    <div class="title">A Critical Review of Visual Navigation Systems for Agricultural Robots in Open Fields and Controlled Environments</div>
+    <div class="author"><strong>Ruifeng Wang</strong>, Rui Xu, Peng W. Chee, Haihua Wang#, Changying Li#</div>
+    <div class="periodical"><em>Under Review, 2026</em></div>
   </div>
 </div>
 </li>
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">A Local Perspective-based Model for Overlapping Community Detection</div>
-    <div class="author">Gaofeng Zhou, <strong>Rui-Feng Wang#</strong>, Kangning Cui</div>
-    <div class="periodical"><em>Accepted by IEEE International Conference on Systems, Man, and Cybernetics (SMC 2025) (<strong>Oral Presentation</strong>), 2025</em></div>
-  </div>
-</div>
-</li>
-
-
 
 </ol>
 

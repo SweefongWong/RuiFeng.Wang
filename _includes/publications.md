@@ -10,12 +10,9 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/11343612">A Local Perspective-based Model for Overlapping Community Detection</a></div>
-    <div class="author">Gaofeng Zhou, <strong>Ruifeng Wang#</strong>, Kangning Cui</div>
-    <div class="periodical"><em>2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2025.</em></div>
-    <div class="links">
-    <a href="https://arxiv.org/abs/2407.14911" class="btn-badge"><img src="https://img.shields.io/badge/arxiv-2407.14911-blue"></a>
-    </div>
+    <div class="title"><a href="https://onlinelibrary.wiley.com/doi/10.1002/rob.70230?af=R">A Field-Adaptive Mechanical Weeding System Coupling Oscillating Pneumatic Mechanism With Deep Learning for Intra-Row Weed Control in Lettuce</a></div>
+    <div class="author"><strong>Rui-Feng Wang</strong>, Chang-Tao Zhao, Yu-Hao Tu, Zi-Qiu Chen, Wen-Hao Su#</div>
+    <div class="periodical"><em>Journal of Field Robotics (IF : 5.2)</em></div>
   </div>
 </div>
 </li>
@@ -23,9 +20,32 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://www.mdpi.com/2311-7524/11/10/1202">BMDNet-YOLO: A Lightweight and Robust Model for High-Precision Real-Time Recognition of Blueberry Maturity</a></div>
-    <div class="author">Huihui Sun, <strong>Rui-Feng Wang#</strong></div>
-    <div class="periodical"><em>Horticulturae (IF : 3.0)</em></div>
+    <div class="title"><a href="https://www.sciencedirect.com/science/article/pii/S0168169926003492">A review of visual navigation for agricultural robots in open fields and controlled environments</a></div>
+    <div class="author"><strong>Rui-Feng Wang</strong>, Rui Xu, Peng W. Chee, Haihua Wang#, Changying Li#</div>
+    <div class="periodical"><em>Computers and Electronics in Agriculture (IF : 8.9)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://www.computer.org/csdl/journal/tg/5555/01/11455380/2f7x6TNNfJS">Neural Radiance Field-based Visual Rendering: a Comprehensive Review</div>
+    <div class="author">Mingyuan Yao, Yukang Huo, Yang Ran, Qingbin Tian, <strong>Ruifeng Wang</strong>, Haihua Wang#</div>
+    <div class="periodical"><em>IEEE Transactions on Visualization and Computer Graphics (IF : 6.5)</em></div>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/11343612">A Local Perspective-based Model for Overlapping Community Detection</a></div>
+    <div class="author">Gaofeng Zhou, <strong>Ruifeng Wang#</strong>, Kangning Cui</div>
+    <div class="periodical"><em>2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2025.</em></div>
+    <div class="links">
+    <a href="https://arxiv.org/abs/2407.14911" class="btn-badge"><img src="https://img.shields.io/badge/arxiv-2407.14911-blue"></a>
+    </div>
   </div>
 </div>
 </li>
@@ -73,37 +93,12 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://elibrary.asabe.org/abstract.asp?aid=55477">An Intelligent Robot Based on Optimized YOLOv11l for Weed Control in Lettuce</a></div>
-    <div class="author"><strong>Rui-Feng Wang</strong>, Yu-Hao Tu, Xue-Chen Li, Zi-Qiu Chen, Chang-Tao Zhao, Ce Yang, Wen-Hao Su#</div>
-    <div class="periodical"><em>2025 ASABE Annual International Meeting</em></div>
-  </div>
-</div>
-</li>
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://www.mdpi.com/2072-4292/17/13/2235">Toward Efficient UAV-Based Small Object Detection: A Lightweight Network with Enhanced Feature Fusion</a></div>
     <div class="author">Xingyu Di, Kangning Cui, <strong>Rui-Feng Wang#</strong></div>
     <div class="periodical"><em>Remote Sensing (IF : 4.1)</em></div>
   </div>
 </div>
 </li>
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://link.springer.com/chapter/10.1007/978-981-97-8490-5_14">Self-supervised transformer-based pre-training method with General Plant Infection dataset</a></div>
-    <div class="author">Zhengle Wang, <strong>Ruifeng Wang</strong>, Minjuan Wang#, Tianyun Lai, Man Zhang</div>
-    <div class="periodical"><em>Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2024.</em></div>
-    <div class="links">
-    <a href="https://arxiv.org/abs/2407.14911" class="btn-badge"><img src="https://img.shields.io/badge/arxiv-2407.14911-blue"></a>
-    </div>
-  </div>
-</div>
-</li>
-
 
 <li>
 <div class="pub-row">
@@ -131,20 +126,8 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Neural radiance field-based visual rendering: a comprehensive review</div>
-    <div class="author">Mingyuan Yao, Yukang Huo, Yang Ran, Qingbin Tian, <strong>Ruifeng Wang</strong>, Haihua Wang#</div>
-    <div class="periodical"><em>Under Review, 2025</em></div>
-  </div>
-</div>
-</li>
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">A Critical Review of Visual Navigation Systems for Agricultural Robots in Open Fields and Controlled Environments</div>
-    <div class="author"><strong>Ruifeng Wang</strong>, Rui Xu, Peng W. Chee, Haihua Wang#, Changying Li#</div>
+    <div class="title">JassidNet: A Quantization-Aware Lightweight Phenotyping Framework for High-Throughput Cotton Jassid (<em>Amrasca biguttula<\em>) Detection and Counting Toward Objective Resistance Screening</div>
+    <div class="author"><strong>Ruifeng Wang#</strong>, Kangning Cui, Iago Beffart Schardong, Matthew C. Bauer, Rama Vamsi Somala, Mingrui Xu, Dalton West, Donald Jones, Sally Toylor, Phillip M. Roberts, Changying Li#, Peng W. Chee#</div>
     <div class="periodical"><em>Under Review, 2026</em></div>
   </div>
 </div>

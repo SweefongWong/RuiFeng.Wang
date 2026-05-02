@@ -126,7 +126,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title">JassidNet: A Quantization-Aware Lightweight Phenotyping Framework for High-Throughput Cotton Jassid (<em>Amrasca biguttula<\em>) Detection and Counting Toward Objective Resistance Screening</div>
+    <div class="title">JassidNet: A Quantization-Aware Lightweight Phenotyping Framework for High-Throughput Cotton Jassid (<em>Amrasca biguttula</em>) Detection and Counting Toward Objective Resistance Screening</div>
     <div class="author"><strong>Ruifeng Wang#</strong>, Kangning Cui, Iago Beffart Schardong, Matthew C. Bauer, Rama Vamsi Somala, Mingrui Xu, Dalton West, Donald Jones, Sally Toylor, Phillip M. Roberts, Changying Li#, Peng W. Chee#</div>
     <div class="periodical"><em>Under Review, 2026</em></div>
   </div>

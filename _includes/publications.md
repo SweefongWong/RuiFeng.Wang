@@ -134,7 +134,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-12" style="position: relative; padding-right: 15px; padding-left: 20px;">
-    <div class="title">BerryDINO</div>
+    <div class="title">BerryDINO: A hierarchical DINOv3 framework for blueberry quality perception from preharvest fruit segmentation to postharvest bruise assessment</div>
     <div class="author"><strong>Rui-Feng Wang</strong>, Daniel J. Petti, Chenjiao Tan, Changying Li#</div>
     <div class="periodical"><em>Under Review, 2026</em></div>
   </div>

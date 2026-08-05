@@ -3,7 +3,7 @@
 
 
 
-I'm currently a research assistant and engineer at University of Florida and University of Georgia. 
+I'm currently an Agricultural Robotic Researcher at University of Florida and Plant Phenotyping Researcher at the University of Georgia. 
 My current research interests include Automation, Computer Vision, Deep Learning, High-Throughput Plant Phenotyping, Precision Agriculture, and Agricultural Robots.
 
 ## Research Interests

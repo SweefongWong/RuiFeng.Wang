@@ -1,125 +1,103 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    {% if site.keywords %}
-    <meta name="keywords" content="{{ site.keywords }}">
-    {% endif %}
-    {% if site.canonical %}
-    <link rel="canonical" href="{{ site.canonical }}"/>
-    {% endif %}
+    <title>{{ site.title }} | {{ site.affiliation | escape }}</title>
+    <meta name="description" content="{{ site.description | escape }}">
+    <meta name="keywords" content="{{ site.keywords | escape }}">
+    <link rel="canonical" href="{{ site.canonical }}">
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
+    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:image" content="{{ site.canonical }}images/portrait.jpg">
 
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png">
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png">
+    <script src="./assets/js/favicon-switcher.js"></script>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+    <link rel="stylesheet" href="./assets/css/site.css">
 
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        
-        {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
-        {% endif %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": {{ site.title | jsonify }},
+        "alternateName": {{ site.alias | jsonify }},
+        "url": {{ site.canonical | jsonify }},
+        "image": "{{ site.canonical }}images/portrait.jpg",
+        "jobTitle": [{% for a in site.data.profile.appointments %}{{ a.title | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        "affiliation": [{% for a in site.data.profile.appointments %}{ "@type": "CollegeOrUniversity", "name": {{ a.institution | jsonify }} }{% unless forloop.last %}, {% endunless %}{% endfor %}],
+        "sameAs": [{{ site.google_scholar | jsonify }}, {{ site.scopus_link | jsonify }}, {{ site.github_link | jsonify }}]
+      }
+    </script>
 
-        <h1>{{ site.title }}</h1>
-
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
-        {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
-        {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
-
-        <br>
-        <br>
-        <div class="social-icons">
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
-
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.zhihu_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.zhihu_link }}">
-          <i class="fab fa-zhihu"></i>
-        </a>
-        {% endif %}
-
-        {% if site.weixin_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.weixin_link }}">
-          <i class="fab fa-weixin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
-
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-twitter"></i>
-        </a>
-        {% endif %}
-        </div>
-        <br>
-
-      </header>
-      <section>
-
-      {{ content }}
-
-      <br>
-
-      {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-      {% endif %}
-
-      </section>
-      <footer>
-        
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
     </script>
     {% endif %}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="masthead">
+      <div class="wrap masthead__grid">
+        <div class="masthead__text">
+          <h1>{{ site.title }}</h1>
+          <p class="alias">{{ site.alias }}</p>
+
+          <ul class="appointments">
+            {% for a in site.data.profile.appointments %}
+            <li>
+              <span class="appointments__inst">{{ a.institution }}</span>
+              <span class="appointments__title">{{ a.title }}</span>
+              <a class="appointments__unit" href="{{ a.url }}">{{ a.unit }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+
+          <p class="contact">
+            {% for e in site.data.profile.emails %}<a href="mailto:{{ e }}">{{ e }}</a>{% endfor %}
+          </p>
+          <p class="profiles">
+            {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Google Scholar</a>{% endif %}
+            {% if site.scopus_link %}<a href="{{ site.scopus_link }}">Scopus</a>{% endif %}
+            {% if site.github_link %}<a href="{{ site.github_link }}">GitHub</a>{% endif %}
+          </p>
+        </div>
+        <img class="portrait" src="{{ site.portrait }}" alt="Portrait of {{ site.title }}" width="760" height="950">
+      </div>
+    </header>
+
+    <nav class="sections" aria-label="Page sections">
+      <ul class="wrap">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#honors">Honors</a></li>
+        <li><a href="#service">Service</a></li>
+      </ul>
+    </nav>
+
+    <main id="main" class="wrap">
+      {{ content }}
+    </main>
+
+    <footer class="wrap footer">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Last updated {{ site.time | date: "%B %Y" }}.</p>
+    </footer>
+
+    <script src="./assets/js/site.js"></script>
   </body>
 </html>

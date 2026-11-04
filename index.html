@@ -1,0 +1,118 @@
+---
+layout: homepage
+---
+{%- assign profile = site.data.profile -%}
+{%- assign pubs = site.data.publications -%}
+{%- assign journals = pubs | where: "type", "journal" -%}
+{%- assign conferences = pubs | where: "type", "conference" -%}
+{%- assign selected = pubs | where: "selected", true -%}
+
+<section id="about" class="section">
+  <h2>About</h2>
+  <div class="section__body">
+    {% for paragraph in profile.bio %}
+    <p class="prose">{{ paragraph }}</p>
+    {% endfor %}
+
+    <dl class="metrics">
+      <div><dt>Publications</dt><dd>{{ pubs.size }}</dd></div>
+      <div><dt>Citations</dt><dd>{{ profile.metrics.citations }}</dd></div>
+      <div><dt>h-index</dt><dd>{{ profile.metrics.h_index }}</dd></div>
+      <div><dt>i10-index</dt><dd>{{ profile.metrics.i10_index }}</dd></div>
+    </dl>
+    <p class="source">Citation metrics from <a href="{{ site.google_scholar }}">Google Scholar</a>, {{ profile.metrics.as_of }}.</p>
+  </div>
+</section>
+
+<section id="research" class="section">
+  <h2>Research</h2>
+  <div class="section__body research">
+    {% for area in profile.research %}
+    <article>
+      <h3>{{ area.title }}</h3>
+      <p>{{ area.text }}</p>
+      <p class="research__work">
+        <span>Representative work:</span>
+        {% for w in area.work %}<a href="https://doi.org/{{ w.doi }}">{{ w.label }}</a>{% unless forloop.last %}; {% endunless %}{% endfor %}
+      </p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section id="publications" class="section section--pubs">
+  <h2>Publications</h2>
+  <div class="section__body">
+    <p class="source source--lead">* equal contribution. # corresponding author, as indicated by the publisher. Full record on <a href="{{ site.google_scholar }}">Google Scholar</a>.</p>
+    <div class="filters" role="group" aria-label="Filter publications">
+      <button class="filter" type="button" data-filter="all" aria-pressed="true">All <span>{{ pubs.size }}</span></button>
+      <button class="filter" type="button" data-filter="selected" aria-pressed="false">Selected <span>{{ selected.size }}</span></button>
+      <button class="filter" type="button" data-filter="journal" aria-pressed="false">Journal <span>{{ journals.size }}</span></button>
+      <button class="filter" type="button" data-filter="conference" aria-pressed="false">Conference <span>{{ conferences.size }}</span></button>
+    </div>
+  </div>
+
+  {% assign years = pubs | group_by: "year" %}
+  {% for year in years %}
+  <div class="pub-year">
+    <h3>{{ year.name }}</h3>
+    <ol class="pub-list">
+      {% for p in year.items %}
+      <li class="pub" data-type="{{ p.type }}"{% if p.selected %} data-selected="true"{% endif %}>
+        <div class="pub__title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+        <div class="pub__authors">{{ p.authors | replace: "Rui-Feng Wang", "<strong>Rui-Feng Wang</strong>" | replace: "Ruifeng Wang", "<strong>Ruifeng Wang</strong>" | replace: "王瑞锋", "<strong>王瑞锋</strong>" }}</div>
+        <div class="pub__venue"><em>{{ p.venue }}</em>{% if p.details != "" %}, {{ p.details }}{% endif %}{% if p.note %} <span class="pub__note">{{ p.note }}</span>{% endif %}</div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="section__body">
+    <ol class="entries">
+      {% for e in profile.experience %}
+      <li>
+        <span class="entries__when">{{ e.dates }}</span>
+        <div>
+          <div class="entries__title">{{ e.title }}</div>
+          <a class="entries__detail" href="{{ e.url }}">{{ e.org }}</a>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section id="honors" class="section">
+  <h2>Honors</h2>
+  <div class="section__body">
+    <ol class="entries entries--narrow">
+      {% for h in profile.honors %}
+      <li>
+        <span class="entries__when">{{ h.year }}</span>
+        <div>
+          <div class="entries__title">{{ h.title }}</div>
+          <div class="entries__detail"><a href="https://doi.org/{{ h.doi }}">{{ h.paper }}</a> ({{ h.role }})</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section id="service" class="section">
+  <h2>Service</h2>
+  <div class="section__body">
+    <h3>Guest Editor</h3>
+    {% for g in profile.guest_editing %}
+    <p class="prose"><em>{{ g.journal }}</em>, Special Issue: <a href="{{ g.url }}">{{ g.issue }}</a></p>
+    {% endfor %}
+    <h3>Journal Reviewer</h3>
+    <ul class="reviewer">
+      {% for j in profile.reviewer %}<li>{{ j }}</li>{% endfor %}
+    </ul>
+  </div>
+</section>

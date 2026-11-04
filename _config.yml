@@ -1,43 +1,26 @@
-# Basic Information 
-title: Rui-Feng Wang (Swee-Fong Wong)
-position: Agricultural Robotic Researcher, Plant Phenotyping Researcher
-affiliation: University of Florida, University of Georgia
-email: ruifeng.wang@ufl.edu, sweefong.wong@uga.edu
+# Basic Information
+title: Rui-Feng Wang
+alias: Swee-Fong Wong
+affiliation: University of Florida & University of Georgia
+lang: en-US
 
 # Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Rui-Feng Wang
-description: Personal homepage for Rui-Feng Wang.
-# canonical: https://minimal-light-theme.yliu.me/
+keywords: Rui-Feng Wang, Swee-Fong Wong, agricultural robotics, plant phenotyping, high-throughput phenotyping, precision agriculture, computer vision, deep learning, cotton, University of Florida, University of Georgia
+description: Rui-Feng Wang is an Agricultural Robotic Researcher at the University of Florida and the Principal AI-based Plant Phenotyping Researcher in the Cotton Molecular Breeding Lab at the University of Georgia.
+canonical: https://sweefongwong.github.io/RuiFeng.Wang/
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
+# Links. Delete a line to hide that link.
 google_scholar: https://scholar.google.com/citations?user=79sbI-UAAAAJ&hl=en
-# cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/SweefongWong
-# zhihu_link: https://www.zhihu.com/people/nan-xi-anthony
-# weixin_link: ./assets/img/weixin.jpg
-# linkedin: https://www.linkedin.com/
-# twitter: https://twitter.com/
 scopus_link: https://www.scopus.com/authid/detail.uri?authorId=57183304400
+github_link: https://github.com/SweefongWong
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./images/avatar.jpg
+# Images
+portrait: ./images/portrait.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: false
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
+# Google Analytics ID. Delete this line to turn analytics off.
 google_analytics: G-KNR4ZRPGYZ
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-# remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:

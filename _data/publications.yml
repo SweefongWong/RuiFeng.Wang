@@ -1,0 +1,334 @@
+# Published works only, newest first. To add a paper, copy one entry and paste it at the top.
+# In authors: * = equal contribution, # = corresponding author.
+# type is "journal" or "conference". selected: true adds the paper to the Selected filter.
+
+- title: "UAV-Based Digital Phenotyping for Quantification of Cotton Jassid (<em>Amrasca biguttula</em>) Injury and Identification of Putatively Resistant Cotton Lines"
+  authors: "Matthew C. Bauer, Rui-Feng Wang, Iago Beffart Schardong, Rama Vamsi Somala, Mingrui Xu, Samantha J. Wan, Kangning Cui, B. Todd Campbell, Sarah H. Sansbury, Andrew H. Paterson, Phillip M. Roberts, Changying Li, Isaac L. Esquivel, Sally V. Taylor, Don C. Jones, Peng W. Chee#"
+  venue: "Agriculture"
+  details: "16(21), 2315"
+  year: 2026
+  type: journal
+  doi: "10.3390/agriculture16212315"
+
+- title: "A Lightweight RGB Vision-Based Express Parcel Detection Framework with Active Learning and Quantization-Aware Training"
+  authors: "An-Qi Wu*, Fan Guo*, Weijun Yang, Rui-Feng Wang#, Pingfan Hu#"
+  venue: "Sensors"
+  details: "26(19), 6036"
+  year: 2026
+  type: journal
+  doi: "10.3390/s26196036"
+
+- title: "Agricultural Mobile Platforms for Smart Farming: Design Requirements, Platform Types, Applications, and Future Perspectives"
+  authors: "Xing Zhang, Huihui Sun, Fan Guo#, Rui-Feng Wang#"
+  venue: "Agriculture"
+  details: "16(18), 1960"
+  year: 2026
+  type: journal
+  doi: "10.3390/agriculture16181960"
+
+- title: "Advanced Remote Sensing and AI Techniques in Agriculture and Forestry"
+  authors: "Rui-Feng Wang#, Kangning Cui#"
+  venue: "Plants"
+  details: "15(17), 2706"
+  year: 2026
+  type: journal
+  doi: "10.3390/plants15172706"
+  note: "Editorial"
+
+- title: "DSAP-WeedNet: A Down-Scale Attention-Guided Lightweight Network for Real-Time Weed Detection Enabling Precision Control in Potato Fields"
+  authors: "Lei Han, Yi-Teng Wu, Ke-Jun Fan, Rui-Feng Wang, Wen-Hao Su"
+  venue: "Potato Research"
+  details: "69(6), 176"
+  year: 2026
+  type: journal
+  doi: "10.1007/s11540-026-10131-x"
+
+- title: "From Retrieval to Faithful Memory Use: Context-Grounded Evidence Chains for Music Education Agents"
+  authors: "Jing Mao, Yuwen Chen#, Wei Wan, Kun Liu, Rui-Feng Wang#"
+  venue: "Information"
+  details: "17(8), 783"
+  year: 2026
+  type: journal
+  doi: "10.3390/info17080783"
+
+- title: "From Orthomosaics to Raw UAV Imagery: Enhancing Palm Detection and Crown-Center Localization"
+  authors: "Rongkun Zhu, Kangning Cui, Wei Tang, Rui-Feng Wang, Sarra Alqahtani, David Lutz, Fan Yang, Paul Fine, Jordan Karubian, Robert Plemmons, Jean-Michel Morel, Victor Pauca, Miles Silman"
+  venue: "IGARSS 2026 – IEEE International Geoscience and Remote Sensing Symposium"
+  details: "pp. 3390–3394"
+  year: 2026
+  type: conference
+  doi: "10.1109/igarss60577.2026.11731064"
+
+- title: "JassidNet as a quantization-aware lightweight phenotyping framework for high-throughput cotton jassid (<em>Amrasca biguttula</em>) detection and counting toward objective resistance screening"
+  authors: "Rui-Feng Wang#, Kangning Cui, Iago Beffart Schardong, Matthew C. Bauer, Rama Vamsi Somala, Mingrui Xu, Dalton West, Donald C. Jones, Sally V. Taylor, Phillip M. Roberts, Changying Li#, Peng W. Chee#"
+  venue: "Industrial Crops and Products"
+  details: "249, 123716"
+  year: 2026
+  type: journal
+  doi: "10.1016/j.indcrop.2026.123716"
+  selected: true
+
+- title: "A Review of Visual Navigation for Agricultural Robots in Open Fields and Controlled Environments"
+  authors: "Rui-Feng Wang, Rui Xu, Peng W. Chee, Haihua Wang#, Changying Li#"
+  venue: "Computers and Electronics in Agriculture"
+  details: "248, 111754"
+  year: 2026
+  type: journal
+  doi: "10.1016/j.compag.2026.111754"
+  selected: true
+
+- title: "Neural Radiance Field-Based Visual Rendering: A Comprehensive Review"
+  authors: "Mingyuan Yao, Yukang Huo, Yang Ran, Qingbin Tian, Ruifeng Wang, Haihua Wang#"
+  venue: "IEEE Transactions on Visualization and Computer Graphics"
+  details: "32(7), 7361–7379"
+  year: 2026
+  type: journal
+  doi: "10.1109/tvcg.2026.3677182"
+
+- title: "Pest Image Recognition Algorithm Based on Joint Adversarial Transfer Learning"
+  authors: "Huihui Sun, Rui-Feng Wang, Runxiang Yu, Yeguo Sun"
+  venue: "Measurement"
+  details: "278, 121620"
+  year: 2026
+  type: journal
+  doi: "10.1016/j.measurement.2026.121620"
+
+- title: "A Field-Adaptive Mechanical Weeding System Coupling Oscillating Pneumatic Mechanism With Deep Learning for Intra-Row Weed Control in Lettuce"
+  authors: "Rui-Feng Wang, Chang-Tao Zhao, Yu-Hao Tu, Zi-Qiu Chen, Wen-Hao Su#"
+  venue: "Journal of Field Robotics"
+  details: "43(6), 4017–4036"
+  year: 2026
+  type: journal
+  doi: "10.1002/rob.70230"
+  selected: true
+
+- title: "Ground Mobile Robots for High-Throughput Plant Phenotyping: A Review from the Closed-Loop Perspective of Perception, Decision, and Action"
+  authors: "Heng-Wei Zhang, Yi-Ming Qin, An-Qi Wu, Xi Xi, Pingfan Hu, Rui-Feng Wang#"
+  venue: "Plants"
+  details: "15(8), 1218"
+  year: 2026
+  type: journal
+  doi: "10.3390/plants15081218"
+
+- title: "Cott-ADNet: Lightweight Real-Time Cotton Boll and Flower Detection Under Field Conditions"
+  authors: "Rui-Feng Wang, Mingrui Xu, Matthew C. Bauer, Iago Beffart Schardong, Xiaowen Ma, Peng W. Chee, Kangning Cui"
+  venue: "2026 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)"
+  details: "pp. 500–509"
+  year: 2026
+  type: conference
+  doi: "10.1109/wacvw68408.2026.00057"
+  note: "Oral Presentation"
+  selected: true
+
+- title: "SEAF-Net: A Sustainable and Lightweight Attention-Enhanced Detection Network for Underwater Fish Species Recognition"
+  authors: "Yu-Shan Han, Sheng-Lun Zhao, Chu Chen, Kangning Cui, Pingfan Hu#, Rui-Feng Wang#"
+  venue: "Journal of Marine Science and Engineering"
+  details: "14(4), 351"
+  year: 2026
+  type: journal
+  doi: "10.3390/jmse14040351"
+
+- title: "AgriDINO-seg: A DINOv3-Based Foundation Model for Multi-Crop Semantic Segmentation: A Case Study on Blueberry and Peanut"
+  authors: "Rui-Feng Wang, Daniel J. Petti, Changying Li"
+  venue: "2026 ASABE Annual International Meeting"
+  details: "Indianapolis, IN, USA"
+  year: 2026
+  type: conference
+  doi: "10.13031/aim.202601108"
+
+- title: "Joint Learning of Emotion and Singing Style for Enhanced Music Style Understanding"
+  authors: "Yuwen Chen, Jing Mao#, Rui-Feng Wang#"
+  venue: "Sensors"
+  details: "25(24), 7575"
+  year: 2025
+  type: journal
+  doi: "10.3390/s25247575"
+
+- title: "From Sensors to Insights: Technological Trends in Image-Based High-Throughput Plant Phenotyping"
+  authors: "Rui-Feng Wang, Hao-Ran Qu, Wen-Hao Su#"
+  venue: "Smart Agricultural Technology"
+  details: "12, 101257"
+  year: 2025
+  type: journal
+  doi: "10.1016/j.atech.2025.101257"
+  selected: true
+
+- title: "DLCPD-25: A Large-Scale and Diverse Dataset for Crop Disease and Pest Recognition"
+  authors: "Heng-Wei Zhang*, Rui-Feng Wang*, Zhengle Wang, Wen-Hao Su#"
+  venue: "Sensors"
+  details: "25(22), 7098"
+  year: 2025
+  type: journal
+  doi: "10.3390/s25227098"
+  note: "Data Descriptor"
+
+- title: "ToRLNet: A Lightweight Deep Learning Model for Tomato Detection and Quality Assessment Across Ripeness Stages"
+  authors: "Huihui Sun, Xi Xi, An-Qi Wu, Rui-Feng Wang#"
+  venue: "Horticulturae"
+  details: "11(11), 1334"
+  year: 2025
+  type: journal
+  doi: "10.3390/horticulturae11111334"
+
+- title: "A Local Perspective-Based Model for Overlapping Community Detection"
+  authors: "Gaofeng Zhou, Rui-Feng Wang#, Kangning Cui"
+  venue: "2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)"
+  details: "pp. 2965–2970"
+  year: 2025
+  type: conference
+  doi: "10.1109/smc58881.2025.11343612"
+  note: "Oral Presentation"
+
+- title: "BMDNet-YOLO: A Lightweight and Robust Model for High-Precision Real-Time Recognition of Blueberry Maturity"
+  authors: "Huihui Sun, Rui-Feng Wang#"
+  venue: "Horticulturae"
+  details: "11(10), 1202"
+  year: 2025
+  type: journal
+  doi: "10.3390/horticulturae11101202"
+
+- title: "FMRFT: Fusion Mamba and DETR for Query Time Sequence Intersection Fish Tracking"
+  authors: "Mingyuan Yao, Yukang Huo, Qingbin Tian, Jiayin Zhao, Xiao Liu, Ruifeng Wang, Lin Xue, Haihua Wang#"
+  venue: "Computers and Electronics in Agriculture"
+  details: "237, 110742"
+  year: 2025
+  type: journal
+  doi: "10.1016/j.compag.2025.110742"
+
+- title: "RA-CottNet: A Real-Time High-Precision Deep Learning Model for Cotton Boll and Flower Recognition"
+  authors: "Rui-Feng Wang, Yi-Ming Qin, Yi-Yi Zhao, Mingrui Xu, Iago Beffart Schardong, Kangning Cui#"
+  venue: "AI"
+  details: "6(9), 235"
+  year: 2025
+  type: journal
+  doi: "10.3390/ai6090235"
+
+- title: "Empowering Smart Soybean Farming with Deep Learning: Progress, Challenges, and Future Perspectives"
+  authors: "Huihui Sun, Hao-Qi Chu, Yi-Ming Qin, Pingfan Hu#, Rui-Feng Wang#"
+  venue: "Agronomy"
+  details: "15(8), 1831"
+  year: 2025
+  type: journal
+  doi: "10.3390/agronomy15081831"
+
+- title: "Resource-Efficient Cotton Network: A Lightweight Deep Learning Framework for Cotton Disease and Pest Classification"
+  authors: "Zhengle Wang, Heng-Wei Zhang, Ying-Qiang Dai, Kangning Cui, Haihua Wang#, Peng W. Chee#, Rui-Feng Wang#"
+  venue: "Plants"
+  details: "14(13), 2082"
+  year: 2025
+  type: journal
+  doi: "10.3390/plants14132082"
+
+- title: "Research on Obtaining Pepper Phenotypic Parameters Based on Improved YOLOX Algorithm"
+  authors: "Yukang Huo*, Rui-Feng Wang*, Chang-Tao Zhao, Pingfan Hu#, Haihua Wang#"
+  venue: "AgriEngineering"
+  details: "7(7), 209"
+  year: 2025
+  type: journal
+  doi: "10.3390/agriengineering7070209"
+
+- title: "Toward Efficient UAV-Based Small Object Detection: A Lightweight Network with Enhanced Feature Fusion"
+  authors: "Xingyu Di, Kangning Cui, Rui-Feng Wang#"
+  venue: "Remote Sensing"
+  details: "17(13), 2235"
+  year: 2025
+  type: journal
+  doi: "10.3390/rs17132235"
+
+- title: "Deep Learning in Multimodal Fusion for Sustainable Plant Care: A Comprehensive Review"
+  authors: "Zhi-Xiang Yang*, Yusi Li*, Rui-Feng Wang*, Pingfan Hu#, Wen-Hao Su#"
+  venue: "Sustainability"
+  details: "17(12), 5255"
+  year: 2025
+  type: journal
+  doi: "10.3390/su17125255"
+
+- title: "Deep Learning for Sustainable Aquaculture: Opportunities and Challenges"
+  authors: "An-Qi Wu, Ke-Lei Li, Zi-Yu Song, Xiuhua Lou, Pingfan Hu, Weijun Yang#, Rui-Feng Wang#"
+  venue: "Sustainability"
+  details: "17(11), 5084"
+  year: 2025
+  type: journal
+  doi: "10.3390/su17115084"
+
+- title: "A Comprehensive Review of Deep Learning Applications in Cotton Industry: From Field Monitoring to Smart Processing"
+  authors: "Zhi-Yu Yang, Wan-Ke Xia, Hao-Qi Chu, Wen-Hao Su#, Rui-Feng Wang#, Haihua Wang#"
+  venue: "Plants"
+  details: "14(10), 1481"
+  year: 2025
+  type: journal
+  doi: "10.3390/plants14101481"
+
+- title: "Deep Learning for Sustainable Agriculture: A Systematic Review on Applications in Lettuce Cultivation"
+  authors: "Yi-Ming Qin*, Yu-Hao Tu*, Tao Li, Yao Ni#, Rui-Feng Wang, Haihua Wang#"
+  venue: "Sustainability"
+  details: "17(7), 3190"
+  year: 2025
+  type: journal
+  doi: "10.3390/su17073190"
+
+- title: "Hybrid Optimization of Phase Masks: Integrating Non-Iterative Methods with Simulated Annealing and Validation via Tomographic Measurements"
+  authors: "Zhiwen Li, Chao Sun, Haihua Wang#, Rui-Feng Wang#"
+  venue: "Symmetry"
+  details: "17(4), 530"
+  year: 2025
+  type: journal
+  doi: "10.3390/sym17040530"
+  note: "Editor's Choice"
+
+- title: "The Heterogeneous Network Community Detection Model Based on Self-Attention"
+  authors: "Gaofeng Zhou#, Rui-Feng Wang"
+  venue: "Symmetry"
+  details: "17(3), 432"
+  year: 2025
+  type: journal
+  doi: "10.3390/sym17030432"
+
+- title: "Active Disturbance Rejection Control—New Trends in Agricultural Cybernetics in the Future: A Comprehensive Review"
+  authors: "Yu-Hao Tu*, Rui-Feng Wang*, Wen-Hao Su#"
+  venue: "Machines"
+  details: "13(2), 111"
+  year: 2025
+  type: journal
+  doi: "10.3390/machines13020111"
+
+- title: "An Intelligent Robot Based on Optimized YOLOv11l for Weed Control in Lettuce"
+  authors: "Rui-Feng Wang, Yu-Hao Tu, Xue-Chen Li, Zi-Qiu Chen, Chang-Tao Zhao, Ce Yang, Wen-Hao Su"
+  venue: "2025 ASABE Annual International Meeting"
+  details: "Toronto, ON, Canada"
+  year: 2025
+  type: conference
+  doi: "10.13031/aim.202501156"
+
+- title: "Automatic Lettuce Weed Detection and Classification Based on Optimized Convolutional Neural Networks for Robotic Weed Control"
+  authors: "Chang-Tao Zhao, Rui-Feng Wang, Yu-Hao Tu, Xiao-Xu Pang, Wen-Hao Su#"
+  venue: "Agronomy"
+  details: "14(12), 2838"
+  year: 2024
+  type: journal
+  doi: "10.3390/agronomy14122838"
+
+- title: "Self-supervised Transformer-Based Pre-training Method with General Plant Infection Dataset"
+  authors: "Zhengle Wang, Ruifeng Wang, Minjuan Wang, Tianyun Lai, Man Zhang"
+  venue: "Chinese Conference on Pattern Recognition and Computer Vision (PRCV)"
+  details: "Lecture Notes in Computer Science, pp. 189–202"
+  year: 2024
+  type: conference
+  doi: "10.1007/978-981-97-8490-5_14"
+
+- title: "The Application of Deep Learning in the Whole Potato Production Chain: A Comprehensive Review"
+  authors: "Rui-Feng Wang, Wen-Hao Su#"
+  venue: "Agriculture"
+  details: "14(8), 1225"
+  year: 2024
+  type: journal
+  doi: "10.3390/agriculture14081225"
+  note: "Editor's Choice"
+  selected: true
+
+- title: "长江中下游地区耕地土壤有机碳密度变化率驱动因素"
+  authors: "张海星, 赵智强, 王瑞锋, 刘静, 楚天舒"
+  venue: "Transactions of the Chinese Society of Agricultural Engineering"
+  details: "39(9), 112"
+  year: 2023
+  type: journal

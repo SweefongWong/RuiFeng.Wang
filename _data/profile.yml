@@ -1,0 +1,142 @@
+# Everything on the page except the publication list lives here.
+
+appointments:
+  - institution: University of Florida
+    title: Agricultural Robotic Researcher
+    unit: Department of Agricultural and Biological Engineering
+    url: https://abe.ufl.edu/
+  - institution: University of Georgia
+    title: Principal AI-based Plant Phenotyping Researcher
+    unit: Cotton Molecular Breeding Lab, Department of Crop and Soil Sciences
+    url: https://cropsoil.uga.edu/
+
+emails:
+  - ruifeng.wang@ufl.edu
+  - sweefong.wong@uga.edu
+
+bio:
+  - >-
+    Rui-Feng Wang is an Agricultural Robotic Researcher in the Department of Agricultural and
+    Biological Engineering at the University of Florida and the Principal AI-based Plant Phenotyping
+    Researcher in the Cotton Molecular Breeding Lab at the University of Georgia. Wang's research
+    develops computer vision, deep learning, and robotic systems for agriculture, with a focus on
+    high-throughput plant phenotyping, precision agriculture, and agricultural robots.
+  - >-
+    Recent work includes quantization-aware phenotyping for cotton jassid resistance screening,
+    real-time cotton boll and flower detection, DINOv3-based multi-crop semantic segmentation, and
+    field-adaptive mechanical weeding in lettuce. Wang serves as a Guest Editor for
+    <em>Plants</em> and as a reviewer for 21 journals.
+
+# Update these from Google Scholar when you refresh the page.
+metrics:
+  as_of: November 2026
+  citations: "1,304"
+  h_index: 20
+  i10_index: 32
+
+research:
+  - title: Agricultural Computer Vision and Foundation Models
+    text: >-
+      Adapting large-scale vision foundation models, including self-supervised vision transformers,
+      to crop detection, fruit segmentation, pest monitoring, and field scene understanding, bridging
+      general-purpose visual representation learning and domain-specific agricultural perception.
+    work:
+      - label: AgriDINO-seg
+        doi: 10.13031/aim.202601108
+      - label: Self-supervised pre-training for plant infection
+        doi: 10.1007/978-981-97-8490-5_14
+  - title: High-Throughput Plant Phenotyping
+    text: >-
+      AI-enabled systems for scalable, automated measurement of plant traits, using UAV and
+      ground-robot sensing platforms, multimodal imaging, and deep learning to quantify growth, stress
+      responses, disease symptoms, and yield.
+    work:
+      - label: JassidNet
+        doi: 10.1016/j.indcrop.2026.123716
+      - label: From Sensors to Insights
+        doi: 10.1016/j.atech.2025.101257
+  - title: Precision Agriculture and Intelligent Field Robotics
+    text: >-
+      Perception systems for autonomous agricultural robots in precision spraying, crop monitoring,
+      and robotic harvesting, built as lightweight vision pipelines that stay reliable under occlusion,
+      clutter, and varying illumination.
+    work:
+      - label: Field-adaptive mechanical weeding
+        doi: 10.1002/rob.70230
+      - label: Visual navigation review
+        doi: 10.1016/j.compag.2026.111754
+  - title: Agricultural AI Systems and Datasets
+    text: >-
+      High-quality annotated datasets for crop and pest monitoring, with reproducible evaluation
+      pipelines that support reliable deployment of AI in real-world farming.
+    work:
+      - label: DLCPD-25
+        doi: 10.3390/s25227098
+
+experience:
+  - dates: Jan 2026 – Present
+    title: Agricultural Robotic Researcher
+    org: Department of Agricultural and Biological Engineering, Herbert Wertheim College of Engineering, University of Florida
+    url: https://abe.ufl.edu/
+  - dates: Jul 2025 – Present
+    title: Principal AI-based Plant Phenotyping Researcher
+    org: Cotton Molecular Breeding Lab, Department of Crop and Soil Sciences, College of Agricultural and Environmental Sciences, University of Georgia
+    url: https://cropsoil.uga.edu/
+  - dates: Nov 2023 – Jul 2025
+    title: Research Assistant
+    org: Intelligent Agricultural Product Quality Control Equipment Lab, College of Engineering, China Agricultural University
+    url: https://coe.cau.edu.cn/
+  - dates: Sep 2023 – Jul 2025
+    title: Research Assistant
+    org: Computer Graphic Lab, College of Information and Electrical Engineering, China Agricultural University
+    url: https://faculty.cau.edu.cn/whh/list.htm
+
+honors:
+  - year: 2026
+    title: Oral Presentation, WACV-HARVEST
+    paper: "Cott-ADNet: Lightweight Real-Time Cotton Boll and Flower Detection Under Field Conditions"
+    role: First Author
+    doi: 10.1109/wacvw68408.2026.00057
+  - year: 2025
+    title: Oral Presentation, IEEE SMC
+    paper: A Local Perspective-Based Model for Overlapping Community Detection
+    role: Corresponding Author
+    doi: 10.1109/smc58881.2025.11343612
+  - year: 2025
+    title: Editor's Choice, <em>Symmetry</em>
+    paper: "Hybrid Optimization of Phase Masks: Integrating Non-Iterative Methods with Simulated Annealing and Validation via Tomographic Measurements"
+    role: Principal Corresponding Author
+    doi: 10.3390/sym17040530
+  - year: 2024
+    title: Editor's Choice, <em>Agriculture</em>
+    paper: "The Application of Deep Learning in the Whole Potato Production Chain: A Comprehensive Review"
+    role: First Author
+    doi: 10.3390/agriculture14081225
+
+guest_editing:
+  - journal: Plants
+    issue: Advanced Remote Sensing and AI Techniques in Agriculture and Forestry
+    url: https://www.mdpi.com/journal/plants/special_issues/ZD3B6NI457
+
+reviewer:
+  - Agriculture
+  - AgriEngineering
+  - Agronomy
+  - AI
+  - Animals
+  - Applied Sciences
+  - Big Data and Cognitive Computing
+  - Computation
+  - Computers and Electronics in Agriculture
+  - Electronics
+  - Engineering Proceedings
+  - Horticulturae
+  - Information
+  - Information Processing in Agriculture
+  - Inventions
+  - Measurement
+  - Plants
+  - Sensors
+  - Smart Agricultural Technology
+  - Sustainability
+  - Technologies
